@@ -5,10 +5,8 @@
     <meta name="description"
         content="A small, dandy 'updates' website that lets people know just how you are right now.">
     <meta charset="utf-8">
-
+    <link href="style.css" type="text/css" rel="stylesheet">
     <html dir="ltr">
-
-    </html>
 </head>
 
 <body>
@@ -20,17 +18,26 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="starter" id="status">I am...</div>
+        <div class="button-wrapper">
+            <button id="status">I am</button>
+            <button id="request">I want</button>
+        </div>
+        <div class="container" id="status">
+            <div class="starter">I am...</div>
 
             <div class="description">
                 <div class="word-choice">happy</div>
+                <div class="word-choice">depressed</div>
+                <div class="word-choice">busy</div>
+                <div class="word-choice">looking forward for a distraction</div>
+                <div class="word-choice">bored</div>
+                <div class="word-choice">in the middle of a project</div>
                 <div class="word-choice">exhausted</div>
                 <div class="word-choice">not in the mood to talk</div>
             </div>
         </div>
-        <div class="container">
-            <div class="starter" id="request">I would love...</div>
+        <div class="container" id="request">
+            <div class="starter">I would love...</div>
 
             <div class="description">
                 <div class="word-choice">some time alone</div>

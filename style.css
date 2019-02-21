@@ -1,0 +1,22 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+
+    height: 200px;
+}
+
+.description{
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.word-choice{
+    float: left;
+    width: fit-content;
+    height: 30px;
+    padding: 10px;
+}
