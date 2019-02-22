@@ -9,6 +9,7 @@ main{
 
 header{
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     text-align: center;
     margin: 30px auto;
     width: fit-content;
@@ -21,7 +22,8 @@ header{
 
 h2{
     font-size: 20px;
-    color: rgb(200,200,200);
+    color: rgb(150,150,150);
+    font-weight: 200;
 }
 
 hr{
@@ -46,7 +48,10 @@ button{
     width: 60px;
     height: 30px;
     background-color: gray;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: white;
 }
 
@@ -109,7 +114,7 @@ button{
 }
 
 .description{
-    height: 400px;
+    height: auto;
     width: 60%;
     margin: 30px auto;
     align-items: center;
@@ -124,6 +129,7 @@ button{
     margin: 0px auto;
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     color: rgba(182, 182, 182, 0.589);
 }
 
