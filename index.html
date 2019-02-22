@@ -6,15 +6,18 @@
         content="A small, dandy 'updates' website that lets people know just how you are right now.">
     <meta charset="utf-8">
     <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Roboto:100" rel="stylesheet">
     <html dir="ltr">
 </head>
 
 <body>
     <header>
+        <div class="navigation"><div class="about">ABOUT</div></div>
+        
         <h1>Today I Am</h1>
+        <hr>
         <h2>A small, dandy 'updates' website that lets people know <i>just</i> how you are right now.</h2>
 
-        <div class="about">ABOUT</div>
     </header>
 
     <main>
@@ -23,7 +26,10 @@
             <button id="request-button" onclick="showRequest()">I want</button>
         </div>
         <div class="container" id="status">
-            <div class="starter"><em>I am...</em></div>
+            <div class="starter-wrap">
+                <div class="starter"><em>I am...</em></div>
+                <hr>
+            </div>
 
             <div class="description">
                 <div class="word-choice">happy</div>
@@ -39,21 +45,28 @@
             </div>
         </div>
         <div class="container" id="request">
-            <div class="starter"><em>I would love...</em></div>
+            <div class="starter-wrap">
+                <div class="starter"><em>I would love...</em></div>
+                <hr>
+            </div>
+
 
             <div class="description">
                 <div class="word-choice">some time alone</div>
                 <div class="word-choice active">creative inspiration</div>
-                <div class="word-choice">one good meal</div>
+                <div class="word-choice">a good meal</div>
+                <div class="word-choice">chocolate</div>
                 <div class="word-choice">someone to talk to</div>
                 <div class="word-choice">a distraction</div>
-                <div class="word-choice">chocolate</div>
-                <div class="word-choice">a warm hug</div>
+                <div class="word-choice active">a warm hug</div>
                 <div class="word-choice">kind words of comfort</div>
                 <div class="word-choice">a refreshing walk</div>
             </div>
 
-            <div class="end">....right now.</div>
+            <div class="end-wrap">
+                <hr>
+                <div class="end"><em>...right now</em></div>
+            </div>
         </div>
     </main>
 
