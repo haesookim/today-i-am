@@ -3,20 +3,59 @@ body{
     margin: 0 auto;
 }
 
-.container{
+.button-wrapper{
+    float: right;
+}
 
-    height: 200px;
+button{
+    width: 60px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.selected{
+    background-color: green;
+}
+
+.container{
+    height: fit-content;
+}
+
+#request {
+    display: none;
+}
+
+#request .end{
+    text-align: right;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.starter{
+    font-size: 30px;
 }
 
 .description{
-    height: 100px;
-    width: 80%;
-    margin: 0 auto;
+    height: 400px;
+    width: 60%;
+    margin: 30px auto;
 }
 
 .word-choice{
     float: left;
     width: fit-content;
-    height: 30px;
-    padding: 10px;
+    height: 50px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    font-style: bold;
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.word-choice.active{
+    font-family: 'Times New Roman', Times, serif;
+    
 }

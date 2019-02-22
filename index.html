@@ -19,29 +19,35 @@
 
     <main>
         <div class="button-wrapper">
-            <button id="status">I am</button>
-            <button id="request">I want</button>
+            <button class="selected" id="status-button" onclick="showStatus()">I am</button>
+            <button id="request-button" onclick="showRequest()">I want</button>
         </div>
         <div class="container" id="status">
-            <div class="starter">I am...</div>
+            <div class="starter"><em>I am...</em></div>
 
             <div class="description">
                 <div class="word-choice">happy</div>
                 <div class="word-choice">depressed</div>
                 <div class="word-choice">busy</div>
-                <div class="word-choice">looking forward for a distraction</div>
+                <div class="word-choice">scraping by</div>
                 <div class="word-choice">bored</div>
-                <div class="word-choice">in the middle of a project</div>
+                <div class="word-choice">out of ideas</div>
+                <div class="word-choice active">in the middle of a project</div>
                 <div class="word-choice">exhausted</div>
+                <div class="word-choice">excited</div>
                 <div class="word-choice">not in the mood to talk</div>
             </div>
         </div>
         <div class="container" id="request">
-            <div class="starter">I would love...</div>
+            <div class="starter"><em>I would love...</em></div>
 
             <div class="description">
                 <div class="word-choice">some time alone</div>
-                <div class="word-choice">sweet, sweet chocolate</div>
+                <div class="word-choice active">creative inspiration</div>
+                <div class="word-choice">one good meal</div>
+                <div class="word-choice">someone to talk to</div>
+                <div class="word-choice">a distraction</div>
+                <div class="word-choice">chocolate</div>
                 <div class="word-choice">a warm hug</div>
                 <div class="word-choice">kind words of comfort</div>
                 <div class="word-choice">a refreshing walk</div>
@@ -50,4 +56,6 @@
             <div class="end">....right now.</div>
         </div>
     </main>
+
+    <script src="index.js"></script>
 </body>
